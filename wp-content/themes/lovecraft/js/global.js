@@ -98,6 +98,21 @@ jQuery(document).ready(function($) {
 		$(document).ready( function() { setTimeout( function() { $blocks.masonry(); }, 500); });
 
 	});
-	
-	
+
+
+    var rafTimer;
+    window.onscroll = function (event) {
+        cancelAnimationFrame(rafTimer);
+        rafTimer = requestAnimationFrame(toggleHeaderFloating);
+    };
+
+    function toggleHeaderFloating() {
+        // does cause layout/reflow: https://git.io/vQCMn
+        if (window.scrollY > 116) {
+            $(".main-menu").addClass('sticky');
+        } else {
+            $(".main-menu").removeClass('sticky');
+        }
+    }
+
 });

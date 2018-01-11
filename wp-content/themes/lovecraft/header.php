@@ -6,7 +6,7 @@
 		
 		<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
-		 
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<?php wp_head(); ?>
 	
 	</head>
@@ -40,6 +40,10 @@
 						<?php endif; ?>
 						
 					<?php endif; ?>
+
+                    <div class="language-switcher">
+                        <ul><?php pll_the_languages();?></ul>
+                    </div>
 								
 					<div class="clear"></div>
 				

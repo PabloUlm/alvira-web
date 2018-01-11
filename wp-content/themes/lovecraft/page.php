@@ -2,7 +2,15 @@
 
 <div class="title">
 
-    <h1 class="post-title test"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+    <div class="post-title">
+
+        <h1>
+<!--            <a href="--><?php //the_permalink(); ?><!--" title="--><?php //the_title_attribute(); ?><!--">--><?php //the_title(); ?><!--</a>-->
+            <?php the_title(); ?>
+        </h1>
+        <p> Some super cool motto</p>
+        <a href="#contact">Ask me for a budget</a>
+    </div>
 
 </div>
 
@@ -11,7 +19,7 @@
 	<div class="section-inner">
 
 		<div class="content">
-													        
+
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				
 				<div id="post-<?php the_ID(); ?>" <?php post_class('post single'); ?>>

@@ -68,7 +68,7 @@ class PLL_Frontend_Nav_Menu extends PLL_Nav_Menu {
 		$offset = 0;
 
 		foreach ( $items as $key => $item ) {
-			if ( $options = get_post_meta( $item->ID, '_pll_menu_item', true ) ) {
+			if (  $options = get_post_meta( $item->ID, '_pll_menu_item', true ) ) {
 				$i = 0;
 
 				$switcher = new PLL_Switcher;
@@ -84,7 +84,7 @@ class PLL_Frontend_Nav_Menu extends PLL_Nav_Menu {
 					$offset++;
 				}
 
-				foreach ( $the_languages as $lang ) {
+				/*foreach ( $the_languages as $lang ) {
 					$lang_item = clone $item;
 					$lang_item->ID = $lang_item->ID . '-' . $lang['slug']; // A unique ID
 					$lang_item->title = $options['show_flags'] && $options['show_names'] ? $lang['flag'] . '<span style="margin-left:0.3em;">' . esc_html( $lang['name'] ) . '</span>' : ( $options['show_flags'] ? $lang['flag'] : esc_html( $lang['name'] ) );
@@ -97,7 +97,7 @@ class PLL_Frontend_Nav_Menu extends PLL_Nav_Menu {
 						$lang_item->db_id = 0; // to avoid recursion
 					}
 					$new_items[] = $lang_item;
-				}
+				}*/
 				$offset += $i - 1;
 			} else {
 				$item->menu_order += $offset;
