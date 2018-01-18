@@ -83,12 +83,15 @@ function attitude_headerdetails() {
 	<div class="container clearfix">
 		<div class="hgroup-wrap clearfix">
 			<section class="hgroup-right">
-			<?php 
-				if( 0 == $options[ 'hide_header_searchform' ] || 1 == $flag ) {
-					attitude_socialnetworks( $flag );
-					if( 0 == $options[ 'hide_header_searchform' ] ) get_search_form();
-				} ?>
-				<button class="menu-toggle"><?php _e('Responsive Menu','attitude'); ?></button>
+                <!-- email -->
+                <i class="fa fa-envelope" aria-hidden="true" style="float:left; margin-right:10px; line-height: 20px;"></i>
+                <a href="mailto:info@alviragamboa.de">
+                    info@alviragamboa.de
+                </a>
+                <!-- phone -->
+                <i class="fa fa-phone" aria-hidden="true" style="float:left; margin-right:14px; line-height: 20px;"></i>
+                <a href="tel:07212630886">0721 2630886</a>
+                <button class="menu-toggle"><?php _e('Responsive Menu','attitude'); ?></button>
 			</section><!-- .hgroup-right -->	
 				<hgroup id="site-logo" class="clearfix">
 					<?php 
@@ -119,6 +122,7 @@ function attitude_headerdetails() {
 							<h2 id="site-title"> 
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 									<img src="<?php echo $options[ 'header_logo' ]; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/logo-name.svg" alt="alvira gamboa-esser Dipl.-Übersetzerin" style="width: 200px;" />
 								</a>
 							</h2>
 							<?php }else{ ?>

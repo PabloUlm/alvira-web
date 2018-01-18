@@ -198,11 +198,7 @@ function attitude_theloop_for_page() {
 
 			<?php do_action( 'attitude_before_post_header' ); ?>
 
-			<header class="entry-header">
-    			<h1 class="entry-title">
-    				<?php the_title(); ?>
-    			</h1><!-- .entry-title -->
-  			</header>
+
 
   			<?php do_action( 'attitude_after_post_header' ); ?>
 
@@ -268,12 +264,6 @@ function attitude_theloop_for_single() {
 		<article>
 
 			<?php do_action( 'attitude_before_post_header' ); ?>
-
-			<header class="entry-header">
-    			<h1 class="entry-title">
-    				<?php the_title(); ?>
-    			</h1><!-- .entry-title -->
-  			</header>
 
   			<?php do_action( 'attitude_after_post_header' ); ?>
 
