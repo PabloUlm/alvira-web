@@ -23,3 +23,12 @@ jQuery( function() {
 			} );
 		} )();
 } );
+
+
+jQuery( function() {
+    // Handle read-more popups
+    ( function() {
+
+    //    jQuery( '.read-more-block' ).append("<a >")
+    } )();
+} );

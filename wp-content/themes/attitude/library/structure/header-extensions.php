@@ -82,6 +82,48 @@ function attitude_headerdetails() {
 
 	<div class="container clearfix">
 		<div class="hgroup-wrap clearfix">
+            <hgroup id="site-logo" class="clearfix">
+                <?php
+                if( $options[ 'header_show' ] != 'disable-both' && $options[ 'header_show' ] == 'header-text' ) {
+                    ?>
+                    <?php if(is_single() || (!is_page_template('page-template-business.php' )) && !is_home()){ ?>
+                        <h2 id="site-title">
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                                <?php bloginfo( 'name' ); ?>
+                            </a>
+                        </h2>
+                    <?php } else { ?>
+                        <h1 id="site-title">
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                                <?php bloginfo( 'name' ); ?>
+                            </a>
+                        </h1>
+                    <?php  }
+                    $site_description = get_bloginfo( 'description', 'display' );
+                    if($site_description){?>
+                        <h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
+                    <?php } ?>
+                    <?php
+                }
+                elseif( $options[ 'header_show' ] != 'disable-both' && $options[ 'header_show' ] == 'header-logo' ) {
+                    ?>
+                    <?php if(is_single() || (!is_page_template('page-template-business.php' )) && !is_home()){ ?>
+                        <h2 id="site-title">
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                                <img src="<?php echo $options[ 'header_logo' ]; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/logo-name.svg" alt="alvira gamboa-esser Dipl.-Übersetzerin" style="width: 200px;" />
+                            </a>
+                        </h2>
+                    <?php }else{ ?>
+                        <h1 id="site-title">
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                                <img src="<?php echo $options[ 'header_logo' ]; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+                            </a>
+                        </h1>
+                    <?php }
+                }
+                ?>
+            </hgroup><!-- #site-logo -->
 			<section class="hgroup-right">
                 <!-- email -->
                 <i class="fa fa-envelope" aria-hidden="true" style="float:left; margin-right:10px; line-height: 20px;"></i>
@@ -92,51 +134,7 @@ function attitude_headerdetails() {
                 <i class="fa fa-phone" aria-hidden="true" style="float:left; margin-right:14px; line-height: 20px;"></i>
                 <a href="tel:07212630886">0721 2630886</a>
                 <button class="menu-toggle"><?php _e('Responsive Menu','attitude'); ?></button>
-			</section><!-- .hgroup-right -->	
-				<hgroup id="site-logo" class="clearfix">
-					<?php 
-						if( $options[ 'header_show' ] != 'disable-both' && $options[ 'header_show' ] == 'header-text' ) {
-						?>
-						<?php if(is_single() || (!is_page_template('page-template-business.php' )) && !is_home()){ ?>
-							<h2 id="site-title"> 
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-									<?php bloginfo( 'name' ); ?>
-								</a>
-							</h2>
-							<?php } else { ?>
-							<h1 id="site-title"> 
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-									<?php bloginfo( 'name' ); ?>
-								</a>
-							</h1>
-					<?php  }
-					$site_description = get_bloginfo( 'description', 'display' );
-							if($site_description){?>
-							<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
-					<?php } ?>
-						<?php
-						}
-						elseif( $options[ 'header_show' ] != 'disable-both' && $options[ 'header_show' ] == 'header-logo' ) {
-						?>
-						<?php if(is_single() || (!is_page_template('page-template-business.php' )) && !is_home()){ ?>
-							<h2 id="site-title"> 
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-									<img src="<?php echo $options[ 'header_logo' ]; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/logo-name.svg" alt="alvira gamboa-esser Dipl.-Übersetzerin" style="width: 200px;" />
-								</a>
-							</h2>
-							<?php }else{ ?>
-							<h1 id="site-title"> 
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-									<img src="<?php echo $options[ 'header_logo' ]; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-								</a>
-							</h1>
-						<?php }
-						}
-						?>
-					
-				</hgroup><!-- #site-logo -->
-			
+			</section><!-- .hgroup-right -->
 		</div><!-- .hgroup-wrap -->
 	</div><!-- .container -->	
 	<?php $header_image = get_header_image();
