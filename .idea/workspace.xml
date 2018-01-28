@@ -4,7 +4,6 @@
     <list default="true" id="db5b3a24-5b53-43e7-acf8-1b1c548edfe8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/attitude/library/js/scripts.js" afterPath="$PROJECT_DIR$/wp-content/themes/attitude/library/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/attitude/library/structure/header-extensions.php" afterPath="$PROJECT_DIR$/wp-content/themes/attitude/library/structure/header-extensions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/attitude/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/attitude/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="header-extensions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/attitude/library/structure/header-extensions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="84" column="52" lean-forward="true" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
+            <state relative-caret-position="1140">
+              <caret line="84" column="52" lean-forward="false" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
               <folding>
                 <marker date="1516830798424" expanded="true" signature="6386:6424" ph="..." />
                 <marker date="1516830798424" expanded="true" signature="6574:6612" ph="..." />
@@ -55,18 +54,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/attitude/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="2675" column="41" lean-forward="true" selection-start-line="2675" selection-start-column="41" selection-end-line="2675" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="attitude_customizer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/attitude/library/js/attitude_customizer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="191">
+              <caret line="2006" column="23" lean-forward="true" selection-start-line="2006" selection-start-column="23" selection-end-line="2006" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -75,8 +64,8 @@
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/attitude/library/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            <state relative-caret-position="489">
+              <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -110,16 +99,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme-customizer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/lovecraft/js/theme-customizer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="global.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/lovecraft/js/global.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -134,7 +113,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>post-title</find>
       <find>&lt;lin</find>
       <find>&lt;link</find>
       <find>font-family</find>
@@ -164,6 +142,7 @@
       <find>.block</find>
       <find>&lt;</find>
       <find>&lt;hgroup</find>
+      <find>access ul</find>
     </findStrings>
     <replaceStrings>
       <replace>#536dad</replace>
@@ -188,8 +167,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/lovecraft/style.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/polylang/include/walker-list.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/attitude/library/structure/content-extensions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/attitude/library/js/scripts.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/attitude/library/structure/header-extensions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/attitude/library/js/scripts.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/attitude/style.css" />
       </list>
     </option>
@@ -222,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -402,7 +382,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -529,28 +508,28 @@
       <workItem from="1516222012635" duration="7333000" />
       <workItem from="1516306470075" duration="2195000" />
       <workItem from="1516560558032" duration="4287000" />
-      <workItem from="1516828032468" duration="6805000" />
+      <workItem from="1516828032468" duration="7370000" />
+      <workItem from="1517162420895" duration="8137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74011000" />
+    <option name="totallyTimeSpent" value="82713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22732124" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22465315" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -558,6 +537,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -572,13 +552,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/lovecraft/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/lovecraft/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3720">
@@ -599,12 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50310">
           <caret line="3354" column="20" lean-forward="false" selection-start-line="3354" selection-start-column="20" selection-end-line="3354" selection-end-column="20" />
-          <folding>
-            <marker date="1500836968000" expanded="true" signature="77345:77440" ph="SELECT ${$di... " />
-            <marker date="1500836968000" expanded="true" signature="85673:85771" ph="SELECT ${$fo... $" />
-            <marker date="1500836968000" expanded="true" signature="88589:88697" ph="SELECT ${$fo... " />
-            <marker date="1500836968000" expanded="true" signature="91005:91090" ph="SELECT ${{$w... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,12 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50220">
           <caret line="3354" column="20" lean-forward="false" selection-start-line="3354" selection-start-column="20" selection-end-line="3354" selection-end-column="20" />
-          <folding>
-            <marker date="1500836968000" expanded="true" signature="77345:77440" ph="SELECT ${$di... " />
-            <marker date="1500836968000" expanded="true" signature="85673:85771" ph="SELECT ${$fo... $" />
-            <marker date="1500836968000" expanded="true" signature="88589:88697" ph="SELECT ${$fo... " />
-            <marker date="1500836968000" expanded="true" signature="91005:91090" ph="SELECT ${{$w... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,12 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50220">
           <caret line="3354" column="20" lean-forward="false" selection-start-line="3354" selection-start-column="20" selection-end-line="3354" selection-end-column="20" />
-          <folding>
-            <marker date="1500836968000" expanded="true" signature="77345:77440" ph="SELECT ${$di... " />
-            <marker date="1500836968000" expanded="true" signature="85673:85771" ph="SELECT ${$fo... $" />
-            <marker date="1500836968000" expanded="true" signature="88589:88697" ph="SELECT ${$fo... " />
-            <marker date="1500836968000" expanded="true" signature="91005:91090" ph="SELECT ${{$w... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,26 +903,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/attitude/library/js/attitude_customizer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/attitude/library/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/attitude/library/structure/header-extensions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="84" column="52" lean-forward="true" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
+        <state relative-caret-position="1140">
+          <caret line="84" column="52" lean-forward="false" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
           <folding>
             <marker date="1516830798424" expanded="true" signature="6386:6424" ph="..." />
             <marker date="1516830798424" expanded="true" signature="6574:6612" ph="..." />
@@ -977,10 +916,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/attitude/library/js/backtotop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/attitude/library/js/attitude_customizer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/attitude/library/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/attitude/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="2675" column="41" lean-forward="true" selection-start-line="2675" selection-start-column="41" selection-end-line="2675" selection-end-column="41" />
+        <state relative-caret-position="191">
+          <caret line="2006" column="23" lean-forward="true" selection-start-line="2006" selection-start-column="23" selection-end-line="2006" selection-end-column="23" />
           <folding />
         </state>
       </provider>

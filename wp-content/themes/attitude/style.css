@@ -1992,6 +1992,40 @@ div.bbp-submit-wrapper button {
 	background: linear-gradient(#E3F5F9, #b5e6ee);
 }
 
+/* read-more-block widget */
+.read-more-block {
+	max-height: 163px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	-webkit-transition: max-height 0.6s; /* Safari */
+	transition: max-height 0.6s;
+	transition-timing-function: ease-out;
+}
+
+.read-more-block.open {
+	max-height: 1100px;
+	-webkit-transition: max-height 0.6s; /* Safari */
+	transition: max-height 0.6s;
+	transition-timing-function: ease-out;
+}
+
+.read-more-block .opener {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: left;
+	background: white;
+	margin-bottom: 0;
+}
+
+.read-more-block .opener a {
+	color: #ffcc00;
+	font-weight: bold;
+}
+
 /* WP Caption */
 .wp-caption {	
 	margin-bottom: 30px;

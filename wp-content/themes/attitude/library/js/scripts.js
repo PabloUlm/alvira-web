@@ -24,11 +24,22 @@ jQuery( function() {
 		} )();
 } );
 
-
-jQuery( function() {
-    // Handle read-more popups
-    ( function() {
-
-    //    jQuery( '.read-more-block' ).append("<a >")
-    } )();
-} );
+openBlock = function (element) {
+    parent = jQuery(element.closest('.read-more-block'));
+	parent.toggleClass('open');
+	var openerText = 'More';
+    if (parent.hasClass('open')) {
+    	if (jQuery(element).data('less')) {
+            openerText = jQuery(element).data('less');
+		} else {
+            openerText = 'Less';
+		}
+	} else {
+    	if (jQuery(element).data('more')) {
+            openerText = jQuery(element).data('more');
+		} else {
+    		openerText = 'More'
+		}
+	}
+    jQuery(element).text(openerText);
+};
