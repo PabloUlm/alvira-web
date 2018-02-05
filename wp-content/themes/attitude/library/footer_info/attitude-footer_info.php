@@ -40,4 +40,12 @@ function attitude_wp_link() {
 function attitude_themehorse_link() {
    return '<a href="'.esc_url( 'http://themehorse.com' ).'" target="_blank" title="'.esc_attr__( 'Theme Horse', 'attitude' ).'" ><span>'.__( 'Theme Horse', 'attitude') .'</span></a>';
 }
+
+function impressum_link() {
+    return '<a href="' . esc_url( home_url( 'impressum' ) ) . '" title="Impressum" ><span>Impressum</span></a>';
+}
+
+function agb_link() {
+    return '<a href="' . esc_url( home_url( 'allgemeine-geschaeftsbedingungen' ) ) . '" title="Allgemeine Geschäftsbedingungen" ><span>AGB</span></a>';
+}
 ?>

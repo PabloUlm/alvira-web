@@ -293,42 +293,24 @@ textarea:focus {
 input[type="reset"], 
 input[type="button"], 
 input[type="submit"] {
-   border: 1px solid #0596AF;
-   color: #fff;  
+	border-radius: 5px;
+   color: #fff;
 	display: inline-block;
    height: 40px;
    width: inherit;
    margin-bottom: 30px;
-   padding: 0px 25px;
+   padding: 0 25px;
 	cursor: pointer;
 	margin-top: 5px;
-	background: #06B8D7;
-	background: -webkit-linear-gradient(#06B8D7, #05aac6);
-	background: -moz-linear-gradient(#06B8D7, #05aac6);
-	background: -ms-linear-gradient(#06B8D7, #05aac6);
-	background: -o-linear-gradient(#06B8D7, #05aac6);
-	background: -webkit-gradient(#06B8D7, #05aac6);
-	background: linear-gradient(#06B8D7, #05aac6);
-	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
-	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);	
+	background: #ffcc00;
+	font-weight: bold;
+	font-size: 15px;
 }
 input[type="reset"]:hover, 
 input[type="button"]:hover, 
 input[type="submit"]:hover {
-	background: -webkit-linear-gradient(#06C0E1, #05aac6);
-	background: -moz-linear-gradient(#06C0E1, #05aac6);
-	background: -ms-linear-gradient(#06C0E1, #05aac6);
-	background: -o-linear-gradient(#06C0E1, #05aac6);
-	background: -webkit-gradient(#06C0E1, #05aac6);
-	background: linear-gradient(#06C0E1, #05aac6);
-}
-input[type="reset"]:active, 
-input[type="button"]:active, 
-input[type="submit"]:active {
-	-webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
-	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);	
+	background: #ffec00;
+	color: #555;
 }
 select {
 	padding: 10px;
@@ -926,6 +908,9 @@ input.s:focus {
 ----------------------------------------------- */
 #main {
 	padding: 50px 0 10px;
+}
+#main .col-2 {
+	float: left;
 }
 #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
     padding-bottom: 15px;
@@ -2118,6 +2103,10 @@ div.bbp-submit-wrapper button {
 ----------------------------------------------- */
 /* All Tablet Portrait size smaller than standard 1079 (devices and browsers) */
 @media only screen and (max-width: 1078px) {
+	#main .col-2 {
+		float: none;
+		width: 100%;
+	}
 	.wrapper { 
 		width: 708px; 
 	}
@@ -2176,6 +2165,13 @@ div.bbp-submit-wrapper button {
 
 
 @media only screen and (min-width: 1078px) {
+	#main .col-2 {
+		width: 48%;
+		margin-right: 4%;
+	}
+	#main .col-2:nth-of-type(2n) {
+		margin-right: 0;
+	}
 	#access ul {
 		margin-left: -20px;
 	}

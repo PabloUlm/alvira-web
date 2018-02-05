@@ -41,7 +41,7 @@ add_action( 'attitude_footer', 'attitude_footer_info', 30 );
  * function to show the footer info, copyright information
  */
 function attitude_footer_info() {         
-   $output = '<div class="copyright">'.__( 'Copyright &copy;', 'attitude' ).' '.attitude_the_year().' ' .attitude_site_link().' | ' . ' '.__( 'Theme by:', 'attitude' ).' '.attitude_themehorse_link().' | '.' '.__( 'Powered by:', 'attitude' ).' '.attitude_wp_link() .'</div><!-- .copyright -->';
+   $output = '<div class="copyright">'.__( 'Copyright &copy;', 'attitude' ).' '.attitude_the_year().' ' .attitude_site_link().' | ' . ' '.impressum_link().' | '.' '.agb_link() .'</div><!-- .copyright -->';
    echo $output;
 }
 
